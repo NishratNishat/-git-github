@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(../1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ 
+ul{
+  float: right;
+  List-style-type: none;
+  margin-top: 25px;
+  
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+   background-color: #fff;
+   color: #000;  
+}
+
+ul li.active a{
+        background-color: #fff;
+        color: #000;
+}
+
+ 
+.logo img{
+    float: left;
+    width: 280px;
+    height: auto;
+
+         
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+ 
+
+
+
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;  
+    padding: 0 8px; 
+  }
+   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color:#f2f2f2;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width:100%;
+      display: block;
+    }
+  }
+    
+ 
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;  
+    padding: 0 8px; 
+  }
+   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .schedule-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+   
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color:#f2f2f2;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width:100%;
+      display: block;
+    }
+  }
+
+
+
+  * {box-sizing: border-box}
+  .programme-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: #f2f2f2;
+  }
+
+  
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #45a049;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #280666;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/28 etc) */
+.numbertext {
+  color: #07000c;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+   
+
+.blog-section {
+  padding: 100px;
+  text-align: center;
+  background-color: #474e5d;
+  color: #f2f2f2;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.slider{
+  max-width: 1500px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+ 
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+ 
+  
+
+
+ 
+ 
+
+.contact-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: #f2f2f2;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+ 
